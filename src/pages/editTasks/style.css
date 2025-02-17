@@ -1,0 +1,66 @@
+h1{
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+form{
+    width: 20%;
+    border: 1px solid black;
+
+    margin: auto;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputDivisor{
+    margin-bottom: 8px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.finishTask{
+    margin-bottom: 16px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+
+    #finish{
+        cursor: pointer;
+    }
+}
+
+
+
+a{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: 1px solid #000000;
+    width: 20%;
+
+    margin: auto;
+
+    cursor: pointer;
+
+    &:hover{
+        background-color: #cfcfcf;
+    }
+}
+
+.link{
+    color: #000000;
+    text-decoration: none;
+
+    margin: 16px 0;
+
+    &:hover{
+        color: #8d8d8d;
+    }
+}

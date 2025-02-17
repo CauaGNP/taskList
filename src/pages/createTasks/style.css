@@ -1,0 +1,25 @@
+form{
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+button{
+    margin-top: 16px;
+
+    &:hover{
+        background-color: #cfcfcf;
+    }
+}
+
+.link{
+    color: #000000;
+    text-decoration: none;
+
+    margin: 16px 0;
+
+    &:hover{
+        color: #292929;
+    }
+}

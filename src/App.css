@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Raleway", serif;
+  background-color: #F1F1F1 ;
+
+  margin: 0;
+  padding: 0;
+}
+
+.titleHeader{
+  width: 100%;
+
+  margin-top: 16px;
+  margin-bottom: 8px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.inlineButtons{
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.createTaskLink{
+  color: #000000;
+  text-decoration: none;
+
+  margin-bottom: 32px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  &:hover{
+    color: #a7a7a7;
+  }
+}
