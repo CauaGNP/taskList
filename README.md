@@ -1,8 +1,37 @@
-# React + Vite
+<h1>TaskList</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>O projeto consiste no front-end de uma API para listar tarefas. A API pode ser encontrada <a href="https://github.com/CauaGNP/taskList-API">clicando aqui!!</a></p>
 
-Currently, two official plugins are available:
+<h1>Tecnologias</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+  <li>React</li>
+  <li>JavaScript</li>
+  <li>CSS3</li>
+</ul>
+
+<h1>Requisitos</h1>
+
+<ul>
+  <li>Node e npm</li>
+  <li>git</li>
+</ol>
+
+<h1>Como rodar o front-end de forma local</h1>
+
+<h2>1° Clone o repositório:</h2>
+<p>Para clonar o repositório, insira o seguinte código no terminal:</p>
+
+```bash
+git clone https://github.com/CauaGNP/taskList
+```
+
+<h2>2° inicialize o npm:</h2>
+<p>Acessando o arquivo do front insira o seguinte código no terminal:</p>
+
+```bash
+npm run dev
+```
+
+<h2>Porta do front</h2>
+<p>Após a inicialização do npm o Vite irá gerar uma porta automatica</p>
